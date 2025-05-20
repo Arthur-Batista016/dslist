@@ -8,6 +8,7 @@ import java.util.Objects;
 @Table(name = "tb_game")
 public class Game {
 
+    //Atributos
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
